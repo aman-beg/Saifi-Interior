@@ -1,0 +1,50 @@
+/* colors */
+:root{
+    --bs-main-color:#fff;
+    --bs-dark-color:#222;
+    --secondary-color:#0DCAF0;
+}
+
+/* notice */
+.notice{
+    background: #4dadf7  url('../images/notice-bg.png') repeat;
+    background-size: 300px;
+}
+
+/* navbar */
+nav img{
+    height: 5vh;
+}
+
+.nav-link{
+    color:var(--bs-main-color) !important;
+    font-weight: 400;
+}
+.nav-link:hover{
+    color:var(--secondary-color) !important;
+}
+.navbar-toggler{
+    color:var(--bs-main-color) !important;
+    border:none;
+}
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 1px var(--bs-main-color);
+}
+nav form .form-control{
+    outline:2px solid white !important;
+}
+nav form .form-control:focus{
+    outline:2px solid #0dcaf0 !important;
+}
+
+
+
+
+
+
+
+/* clients img */
+#clients img{
+    width:100%;
+    height: calc(width * 2);
+}
